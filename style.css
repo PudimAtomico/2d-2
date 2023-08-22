@@ -1,0 +1,19 @@
+@import url(header.css);
+@import url(banner.css);
+
+:root{
+    --cor-do-fundo:#610D19;
+    --azul:#0D2A61;
+    --roxo:#3E0D61;
+    --fonte-base: "Roboto";
+    --cor-do-texto:#FFFFFF;
+
+}
+
+body{
+    background-color: var(--cor-do-fundo);
+    color: var(--cor-do-texto);
+    font-family: var(--fonte-base);
+    font-size: 16px;
+    font-weight: 450px;
+}
